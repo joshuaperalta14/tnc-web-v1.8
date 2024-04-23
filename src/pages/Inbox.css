@@ -1,0 +1,92 @@
+/* Main container */
+.inbox-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Inbox content */
+.inbox-content {
+    flex: 1;
+    display: flex;
+}
+
+/* Email list */
+.inbox-email-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Individual email */
+.inbox-email {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    color: #ffffff70; /* Adjust font color to be white */
+}
+
+.inbox-email.selected {
+    background-color: #f0f0f041;
+}
+
+.inbox-email:hover {
+    background-color: #f5f5f5;
+}
+
+.inbox-email-info {
+    font-weight: bold;
+    color: #ccc; /* Adjust font color to be lighter */
+}
+
+.inbox-email-body {
+    margin-top: 5px;
+    color: #ddd; /* Adjust font color to be lighter */
+}
+
+/* Email preview */
+.inbox-email-preview {
+    flex: 3;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    color: #fff; /* Adjust font color to be white */
+}
+
+/* Email preview container */
+.email-preview-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333; /* Adjust font color */
+}
+
+/* Email preview header */
+.email-preview-header {
+    margin-bottom: 10px;
+    color: #000000; /* Adjust font color to be white */
+}
+
+.email-preview-header h2 {
+    margin: 10;
+}
+
+.email-sender {
+    color: #666; /* Adjust sender font color */
+}
+
+/* Email preview body */
+.email-preview-body {
+    color: #333; /* Adjust email body font color */
+}
+
+.reply-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.reply-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

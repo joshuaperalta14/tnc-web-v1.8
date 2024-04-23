@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-submit-background {
+    font-family: "Kaisei HarunoUmi", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../assets/blank background.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-submit-wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid #f07706;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px  rgb(53, 134, 255);
+    color: #807d7d;
+    border-radius: 30px;
+    padding: 25px 40px;
+}
+
+.contact-submit-wrapper h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-submit-wrapper h3 {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.contact-submit-wrapper button {
+    width: 60%;
+    height: 45px;
+    background: linear-gradient(to right, #000000da, #000000);
+    border: 2px solid white;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 55px;
+    margin-left: 75px;
+}
+
+.contact-submit-wrapper button:hover {
+    background: linear-gradient(to right, #000000da, #0c0c0cda, #424242e7);
+    color: #afafaf;
+    transition: 0.3s;
+}
